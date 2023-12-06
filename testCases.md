@@ -210,3 +210,29 @@ Expected Result:
 * The app detects the small size of the image display box.
 * The generated image does not overflow or distort outside the boundaries of the display box.
 * If the image cannot fit within the small display box, a scroll or zoom functionality is provided, or an appropriate error message is displayed.
+
+### Test Case ID: TF013
+
+Test Case Name: Cross-Browser Compatibility
+
+Test Objective: Test the ArtFabric app on different browsers to ensure cross-browser compatibility.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* The user has access to multiple web browsers.
+
+Test Steps:
+
+* Open the ArtFabric app in Google Chrome.
+* Verify that all features and functionalities work as expected.
+* Repeat the test in Mozilla Firefox.
+* Repeat the test in Microsoft Edge.
+* Repeat the test in Safari.
+* Ensure that the app is responsive and functional across different browsers.
+
+Expected Result:
+
+* The ArtFabric app functions correctly on all tested browsers.
+* UI elements are displayed consistently, and there are no layout issues.
+* There are no browser-specific errors or unexpected behaviors.
