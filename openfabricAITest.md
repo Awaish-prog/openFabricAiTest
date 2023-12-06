@@ -44,7 +44,7 @@
 
 ### Module: ArtFabric AI App
 
-Test Case ID: TF001
+#### Test Case ID: TF001
 
 Test Case Name: Valid Submission and Image Generation
 
@@ -64,3 +64,28 @@ Expected Result:
 
 * The AI generates an image based on the provided prompt.
 * The image is displayed in the image display box.
+
+#### Test Case ID: TF002
+
+Test Case Name: Customize Display Functionality
+
+Test Objective: Verify that the "Customize Display" button in the settings tab allows users to resize and relocate the prompt input, run button, and image box.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* The user is logged into the application.
+* The settings tab is open.
+
+Test Steps:
+
+* Click on the "Customize Display" button in the settings tab.
+* Attempt to resize the prompt input, run button, and image box to different dimensions.
+* Relocate the prompt input, run button, and image box to different positions on the screen.
+* Save the changes or apply the customization.
+
+Expected Result:
+
+* The "Customize Display" mode is activated, allowing the user to resize and relocate the prompt input, run button, and image box.
+* The resizing and relocation actions are reflected on the screen.
+* The changes are successfully applied and persisted when saved.
