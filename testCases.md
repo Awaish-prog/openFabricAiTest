@@ -119,3 +119,25 @@ Expected Result:
 * The app detects the invalid prompt input.
 * An error message is displayed, indicating that the prompt is invalid.
 * The user is prompted to enter a valid prompt.
+
+### Test Case ID: TF006
+
+Test Case Name: Submitting Form Without Entering a Prompt
+
+Test Objective: Ensure that the ArtFabric app prompts the user to provide input when attempting to submit the form without entering a prompt.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* The user is logged into the application.
+
+Test Steps:
+
+* Leave the prompt input field empty.
+* click run button.
+
+Expected Result:
+
+* The app detects the missing prompt.
+* An error message is displayed, prompting the user to enter a valid prompt.
+* The form submission is prevented until a valid prompt is provided.
