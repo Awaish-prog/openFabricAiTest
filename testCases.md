@@ -1,6 +1,8 @@
 # Set of test cases for ArtFabric AI App
 
-## Test Case ID: TF001
+## Positive Test Cases
+
+### Test Case ID: TF001
 
 Test Case Name: Valid Submission and Image Generation
 
@@ -21,7 +23,7 @@ Expected Result:
 * The AI generates an image based on the provided prompt.
 * The image is displayed in the image display box.
 
-## Test Case ID: TF002
+### Test Case ID: TF002
 
 Test Case Name: Customize Display Functionality
 
@@ -46,7 +48,7 @@ Expected Result:
 * The resizing and relocation actions are reflected on the screen.
 * The changes are successfully applied and persisted when saved.
 
-## Test Case ID: TF003
+### Test Case ID: TF003
 
 Test Case Name: Multiple Submissions with Unique Images
 
@@ -70,7 +72,7 @@ Expected Result:
 * The images generated from different prompts are distinct.
 * No errors or unexpected behavior occur during the multiple submission process.
 
-## Test Case ID: TF004
+### Test Case ID: TF004
 
 Test Case Name: Handling Extreme Prompt Sizes
 
@@ -92,3 +94,28 @@ Expected Result:
 
 * The app gracefully handles the smallest prompt, generating an image without errors.
 * The app gracefully handles the largest prompt, generating an image without crashing or exhibiting unexpected behavior.
+
+## Negative Test Cases
+
+
+### Test Case ID: TF005
+
+Test Case Name: Handling Invalid Prompt Input
+
+Test Objective: Verify that the ArtFabric app handles an invalid prompt (e.g., empty string or non-alphanumeric characters) appropriately.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* The user is logged into the application.
+
+Test Steps:
+
+* Input an invalid prompt (e.g., empty string or non-alphanumeric characters) in the prompt input field.
+* Click run button.
+
+Expected Result:
+
+* The app detects the invalid prompt input.
+* An error message is displayed, indicating that the prompt is invalid.
+* The user is prompted to enter a valid prompt.
