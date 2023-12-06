@@ -2,7 +2,7 @@
 
 ## Summary of the Openfabric AI platform's key features and testing challenges
 
-### Key Features:
+### Key Features and Testing Challenges:
 
 #### Decentralization:
 
@@ -39,3 +39,28 @@
 * Description: Expand network capabilities by allowing participants to rent computing power for AI execution and training, promoting scalability.
 
 * Testing Challenge: Openfabric AI's scalability feature requires testing the platform's performance under increased load. This involves assessing how well the network can handle a growing number of participants, AI tasks, and data processing requirements. Load testing becomes essential to identify potential bottlenecks, optimize resource allocation, and ensure that the platform scales horizontally to meet the demands of a dynamically expanding user base.
+
+## Set of test cases for a specified module or feature.
+
+### Module: ArtFabric AI App
+
+Test Case ID: TF001
+
+Test Case Name: Valid Submission and Image Generation
+
+Test Objective: Verify that the ArtFabric app can successfully generate an image based on a valid prompt.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* The user is logged into the application.
+
+Test Steps:
+
+* Enter a valid prompt in the prompt input field.
+* Click on the run button.
+
+Expected Result:
+
+* The AI generates an image based on the provided prompt.
+* The image is displayed in the image display box.
