@@ -141,3 +141,26 @@ Expected Result:
 * The app detects the missing prompt.
 * An error message is displayed, prompting the user to enter a valid prompt.
 * The form submission is prevented until a valid prompt is provided.
+
+### Test Case ID: TF010
+
+Test Case Name: Submitting Form After Clearing Prompt Input
+
+Test Objective: Verify that the ArtFabric app handles the scenario where a user enters a prompt, clears the prompt input, and then attempts to submit the form.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* The user is logged into the application.
+
+Test Steps:
+
+* Enter a valid prompt in the prompt input field.
+* Clear the prompt input field.
+* Click run button.
+
+Expected Result:
+
+* The app detects the cleared prompt input.
+* An error message is displayed, prompting the user to enter a valid prompt.
+* The form submission is prevented until a valid prompt is provided.
