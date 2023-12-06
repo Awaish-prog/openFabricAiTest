@@ -187,3 +187,26 @@ Expected Result:
 * Both User A and User B receive their unique images without interference.
 * The app maintains data integrity, ensuring that User A's submission does not affect User B's submission and vice versa.
 * No errors or unexpected behavior occur during the simultaneous submission process.
+
+### Test Case ID: TF012
+
+Test Case Name: Handling Image Display Box Overflow
+
+Test Objective: Verify that the ArtFabric app handles the situation where the image display box is resized to a very small size, and the generated image cannot fit within the display box.
+
+Preconditions:
+
+* The ArtFabric app accessible.
+* The user is logged into the application.
+
+Test Steps:
+
+* Click on Customize display in settings tab.
+* Resize the image display box to a very small dimension.
+* Enter a valid prompt and submit.
+
+Expected Result:
+
+* The app detects the small size of the image display box.
+* The generated image does not overflow or distort outside the boundaries of the display box.
+* If the image cannot fit within the small display box, a scroll or zoom functionality is provided, or an appropriate error message is displayed.
