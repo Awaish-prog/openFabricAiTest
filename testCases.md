@@ -164,3 +164,26 @@ Expected Result:
 * The app detects the cleared prompt input.
 * An error message is displayed, prompting the user to enter a valid prompt.
 * The form submission is prevented until a valid prompt is provided.
+
+### Test Case ID: TF011
+
+Test Case Name: Simultaneous Submissions by Multiple Users
+
+Test Objective: Simulate multiple users submitting prompts simultaneously to check if the ArtFabric app handles concurrency without producing unexpected behavior.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* Multiple users are logged into the application.
+
+Test Steps:
+
+* User A and User B both navigate to the settings tab simultaneously.
+* User A enters a valid prompt and submits.
+* Simultaneously, User B enters a different valid prompt and submits.
+
+Expected Result:
+
+* Both User A and User B receive their unique images without interference.
+* The app maintains data integrity, ensuring that User A's submission does not affect User B's submission and vice versa.
+* No errors or unexpected behavior occur during the simultaneous submission process.
