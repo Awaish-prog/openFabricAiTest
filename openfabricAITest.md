@@ -40,11 +40,9 @@
 
 * Testing Challenge: Openfabric AI's scalability feature requires testing the platform's performance under increased load. This involves assessing how well the network can handle a growing number of participants, AI tasks, and data processing requirements. Load testing becomes essential to identify potential bottlenecks, optimize resource allocation, and ensure that the platform scales horizontally to meet the demands of a dynamically expanding user base.
 
-## Set of test cases for a specified module or feature.
+## Set of test cases for ArtFabric AI App
 
-### Module: ArtFabric AI App
-
-#### Test Case ID: TF001
+### Test Case ID: TF001
 
 Test Case Name: Valid Submission and Image Generation
 
@@ -65,7 +63,7 @@ Expected Result:
 * The AI generates an image based on the provided prompt.
 * The image is displayed in the image display box.
 
-#### Test Case ID: TF002
+### Test Case ID: TF002
 
 Test Case Name: Customize Display Functionality
 
@@ -89,3 +87,27 @@ Expected Result:
 * The "Customize Display" mode is activated, allowing the user to resize and relocate the prompt input, run button, and image box.
 * The resizing and relocation actions are reflected on the screen.
 * The changes are successfully applied and persisted when saved.
+
+### Test Case ID: TF003
+
+Test Case Name: Multiple Submissions with Unique Images
+
+Test Objective: Verify that the ArtFabric app can handle multiple submissions without issues, and each submission results in a unique image.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* The user is logged into the application.
+
+Test Steps:
+
+* Input a valid prompt and submit.
+* Record the generated image.
+* Input a different valid prompt and submit.
+* Record the newly generated image.
+
+Expected Result:
+
+* Each submission produces a unique image based on the provided prompt.
+* The images generated from different prompts are distinct.
+* No errors or unexpected behavior occur during the multiple submission process.
