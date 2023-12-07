@@ -159,10 +159,32 @@ Expected Result:
 * The time taken is accurately displayed for each image.
 * The format of the displayed time is clear and understandable.
 
+### Test Case ID: TF008
+
+Test Case Name: Display Selected Image in the Image Box
+
+Test Objective: Verify that clicking on any image in the list successfully displays that image in the main image box.
+
+Preconditions:
+
+* The ArtFabric app is accessible.
+* Images have been generated and are available in the list.
+
+Test Steps:
+
+* Navigate to the section displaying the list of generated images.
+* Click on one of the images in the list.
+
+Expected Result:
+
+* The clicked image is displayed prominently in the main image box.
+* The main image box updates to show the selected image in its original resolution.
+* The previously displayed image in the main image box is replaced by the newly selected image.
+
 ## Negative Test Cases
 
 
-### Test Case ID: TF007
+### Test Case ID: TF009
 
 Test Case Name: Handling Invalid Prompt Input
 
@@ -184,7 +206,7 @@ Expected Result:
 * An error message is displayed, indicating that the prompt is invalid.
 * The user is prompted to enter a valid prompt.
 
-### Test Case ID: TF008
+### Test Case ID: TF010
 
 Test Case Name: Submitting Form Without Entering a Prompt
 
@@ -206,7 +228,7 @@ Expected Result:
 * An error message is displayed, prompting the user to enter a valid prompt.
 * The form submission is prevented until a valid prompt is provided.
 
-### Test Case ID: TF009
+### Test Case ID: TF011
 
 Test Case Name: Submitting Form After Clearing Prompt Input
 
@@ -229,7 +251,7 @@ Expected Result:
 * An error message is displayed, prompting the user to enter a valid prompt.
 * The form submission is prevented until a valid prompt is provided.
 
-### Test Case ID: TF010
+### Test Case ID: TF012
 
 Test Case Name: Simultaneous Submissions by Multiple Users
 
@@ -252,7 +274,7 @@ Expected Result:
 * The app maintains data integrity, ensuring that User A's submission does not affect User B's submission and vice versa.
 * No errors or unexpected behavior occur during the simultaneous submission process.
 
-### Test Case ID: TF011
+### Test Case ID: TF013
 
 Test Case Name: Handling Image Display Box Overflow
 
@@ -275,14 +297,14 @@ Expected Result:
 * The generated image does not overflow or distort outside the boundaries of the display box.
 * If the image cannot fit within the small display box, a scroll or zoom functionality is provided, or an appropriate error message is displayed.
 
-### Test Case ID: TF012
+### Test Case ID: TF014
 
 Test Case Name: Cross-Browser Compatibility
 
 Test Objective: Test the ArtFabric app on different browsers to ensure cross-browser compatibility.
 
 Preconditions:
-
+-?
 * The ArtFabric app is accessible.
 * The user has access to multiple web browsers.
 
