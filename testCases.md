@@ -208,7 +208,7 @@ Expected Result:
 
 ### Test Case ID: TF010
 
-Test Case Name: Submitting Form Without Entering a Prompt
+Test Case Name: Click run button Without Entering a Prompt
 
 Test Objective: Ensure that the ArtFabric app prompts the user to provide input when attempting to submit the form without entering a prompt.
 
@@ -230,7 +230,7 @@ Expected Result:
 
 ### Test Case ID: TF011
 
-Test Case Name: Submitting Form After Clearing Prompt Input
+Test Case Name: Click run button After Clearing Prompt Input
 
 Test Objective: Verify that the ArtFabric app handles the scenario where a user enters a prompt, clears the prompt input, and then attempts to submit the form.
 

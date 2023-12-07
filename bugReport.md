@@ -4,7 +4,7 @@
 
 ### Title: Run Button Processes Empty Prompt
 
-**Description**: When we click on run button with an empty prompt it processes the request and tries to display an image.
+**Description**: When a user clicks on run button with an empty prompt it processes the request and tries to display an image.
 
 **Severity**: Major
 
@@ -23,7 +23,7 @@
 
 ### Title: Custom Display Changes Not Saved
 
-**Description**: When we customize display and save settings it keeps on loading which does not stop until we refresh the page. After refresh we do not get new display we customized. 
+**Description**: When a user customizes display and saves settings it keeps on loading which does not stop until we refresh the page. After refresh we do not get new display we customized. 
 
 **Severity**: Major
 
