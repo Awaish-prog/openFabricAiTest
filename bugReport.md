@@ -4,6 +4,8 @@
 
 ### Title: Run Button Processes Empty Prompt
 
+**Description**: When we click on run button with an empty prompt it processes the request and tries to display an image.
+
 **Severity**: Major
 
 **Steps to Reproduce**:
@@ -20,6 +22,8 @@
 ## Bug ID: B02
 
 ### Title: Custom Display Changes Not Saved
+
+**Description**: When we customize display and save settings it keeps on loading which does not stop until we refresh the page. After refresh we do not get new display we customized. 
 
 **Severity**: Major
 
