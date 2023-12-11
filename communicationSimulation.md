@@ -2,7 +2,7 @@
 
 **Non-Technical Stakeholder**: Hey, I heard there's an issue with one of the test cases. Can you give me an update?
 
-**Technical Team Member (TTM)**: Absolutely. We've identified a problem with a specific test case that's designed to check if our AI app properly handles empty prompts. Currently, the test is failing, and it's not showing the expected error message when the user clicks the "Run" button with an empty prompt.
+**Technical Team Member (TTM)**: Absolutely. We've identified a problem with a specific test case that's designed to check if our ArtFabric AI app properly handles empty prompts. Currently, the test is failing, and it's not showing the expected error message when the user clicks the "Run" button with an empty prompt.
 
 **Non-Technical Stakeholder**: Okay, what does that mean for the app?
 
