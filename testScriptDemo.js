@@ -17,7 +17,7 @@ describe('Empty prompt test', () => {
     await browser.close();
   });
 
-  it('should login with MetaMask', async () => {
+  it('should show error message regarding empty prompt', async () => {
     const url = 'https://openfabric.dev/login';
     
     await page.goto(url);
